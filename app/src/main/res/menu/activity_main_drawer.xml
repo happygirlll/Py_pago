@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/loginOutBtn"
+            android:icon="@drawable/logout"
+            android:title="로그아웃" />
+        <item
+            android:id="@+id/nav_projecttext"
+            android:icon="@drawable/n"
+            android:title="개발일지" />
+              <item
+            android:id="@+id/nav_coMu"
+            android:icon="@drawable/b"
+            android:title="나의 자유게시판 작성글" />
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@android:color/white"
+    tools:context="com.example.sw.pypago.com.example.sw.pypago.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/AppImage"
+            android:layout_width="96dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edittextdraw"
+            android:src="@drawable/icon_people" />
+
+        <TextView
+            android:id="@+id/AppName"
+            android:layout_width="162dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/AppImage"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:text="책이름"
+            android:textStyle="bold"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/AppAuthor"
+            android:layout_width="138dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginEnd="7dp"
+            android:layout_toRightOf="@id/AppName"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:text="저자"
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:id="@+id/AppPublisher"
+            android:layout_width="161dp"
+            android:layout_height="38dp"
+            android:layout_below="@id/AppName"
+            android:layout_toRightOf="@id/AppImage"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:text="출판사"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/AppPrice"
+            android:layout_width="169dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/AppPublisher"
+            android:layout_toRightOf="@id/AppImage"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:text="책가격"
+            android:textColor = "#3F51B5"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/AppDate"
+            android:layout_width="169dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/AppAuthor"
+            android:layout_toRightOf="@id/AppPublisher"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:text="출간날짜"
+            android:textSize="17dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
